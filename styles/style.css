@@ -46,6 +46,7 @@
 
 
 .address {
+    
     max-width: 240px; 
     font-family: Raleway;
     font-weight: 400;
@@ -57,7 +58,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 }
 
 .header__address a {
