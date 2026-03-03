@@ -66,19 +66,15 @@ button {
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
+    color: #000000;
 }
 
 .header__links-list-item_active {
     list-style: none;
 }
 
-.header__link_active{
+.header__link_active {
     text-decoration: none;
-    
-}
-
-.header__links-list-item {
-    color: #000000;
     
 }
 
@@ -231,9 +227,6 @@ ul, li {
     padding: 180px 24px 120px;
 }
 
-.card-link {
-    height: 100%;
-}
 
 .card {
     display: flex;
@@ -254,7 +247,7 @@ ul, li {
     position: relative;
 }
 
-.card_type_picture{
+.card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
     position: relative;
 }
@@ -287,6 +280,7 @@ ul, li {
     left: 40px;
     top: 48px;
     right: 40px;
+    height: 100%
 
 }
 
