@@ -139,7 +139,6 @@
   word-spacing: 17px;
   padding: 12px 0 11px 0;
   z-index: 2;
-  
 }
 
 .bet-button {
@@ -176,6 +175,8 @@ li {
   min-height: 100px;
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .lots {
@@ -250,11 +251,9 @@ li {
 }
 
 .lots__card-list-item {
-  display: flex;
-  flex-direction: column;
 }
 
-.lots__look-more-link p{
+.lots__look-more-link p {
   font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
