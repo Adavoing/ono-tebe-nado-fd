@@ -298,8 +298,8 @@ li {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 693px;
-  height: 312px;
+  max-width: 693px;
+  width: 100%;
 }
 
 .about__text p {
